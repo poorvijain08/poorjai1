@@ -1,5 +1,6 @@
 namespace TestMicroService.testDB;
-using { User, Country, managed } from '@sap/cds/common';entity Book {
+using { User, Country, managed } from '@sap/cds/common';
+entity Book {
 name: undefined(50) Not null;
 title: undefined(50) Not null;
 author: undefined(50) Not null;
