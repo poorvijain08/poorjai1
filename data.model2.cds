@@ -2,12 +2,11 @@ namespace TestMicroService.testDB;
 using { User, Country, managed } from '@sap/cds/common';
 entity Book {
 Key ID:Integer;
-title: undefined(50) Not null;
-author: undefined(50) Not null;
-stock: undefined(50) Not null;};
+author: undefined(undefined) undefined;
+stock: undefined(undefined) undefined;};
 entity Authors {
 Key ID:UUID;
-books: undefined(n/a) Not null;};
+books: undefined(undefined) undefined;};
 entity  {
 undefined:undefined;
 };
