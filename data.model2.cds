@@ -3,15 +3,16 @@ using { User, Country, managed } from '@sap/cds/common';
 entity Book {
 Key ID:Integer;
 authors:Authors;
+title:undefined;
 
 author: undefined;
 stock: undefined;};
-entity Authors {
+ entity Authors {
 Key ID:UUID;
 :;
 
 books: undefined;};
-entity  {
+ entity  {
 undefined:undefined;
 undefined:undefined;
 
