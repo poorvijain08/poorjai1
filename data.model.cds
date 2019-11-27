@@ -12,5 +12,5 @@ entity Book {
 entity Authors {
  key ID : UUID;
  name : String(50);
- books : Association to many Booksonbooks.author=$self;
+ books : Association to many Books on books.author=$self;
 };
