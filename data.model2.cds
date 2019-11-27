@@ -13,7 +13,7 @@ entity Authors {
 key ID : UUID;
 name : String(50);
 
-books : n/a(n/a);
+books : ();
 };
 
 entity  {
