@@ -14,4 +14,3 @@ entity Authors {
  name : String(50);
  books : n/a(n/a);
 };
-};
