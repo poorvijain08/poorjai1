@@ -13,12 +13,6 @@ entity Authors {
 key ID : UUID;
 name : String(50);
 
-books : ();
-};
-
-entity  {
-key undefined : undefined;
-undefined : undefined(undefined);
-
+books : n/a(n/a);
 };
 };
