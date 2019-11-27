@@ -8,13 +8,15 @@ title : String(50);
 author : String(50);
 stock : Inetger(50);
 };
- entity Authors {
+
+entity Authors {
 key ID : UUID;
 name : String(50);
 
 books : n/a(n/a);
 };
- entity  {
+
+entity  {
 key undefined : undefined;
 undefined : undefined(undefined);
 
