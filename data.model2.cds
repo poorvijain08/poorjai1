@@ -11,7 +11,7 @@ entity Book {
 
 entity Authors {
  key ID : UUID;
-name : String(50);
+ name : String(50);
  books : n/a(n/a);
 };
 };
