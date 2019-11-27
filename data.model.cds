@@ -5,12 +5,12 @@ entity Book {
  key ID : Integer;
  name : String(50);
  title : String(50);
-Association toAuthors;
+ author:Association to Authors;
  stock : Inetger(50);
 };
 
 entity Authors {
  key ID : UUID;
  name : String(50);
-Association to manyBook;
+ books:Association to many Book;
 };
